@@ -58,16 +58,13 @@ body {
 	color: #FFFFFF;
 	padding-left: 56px;
 	border-left: 8px solid #FFFFFF;
-
 }
 .menu-lateral__link::before{
-	
 	width: 24px;
 	height: 24px;
 	font-size: 24px;
 	position: absolute;
 	left: 24px;
-
 }
 .menu-lateral__link--inicio::before{
 	content: "\e902";
@@ -156,6 +153,10 @@ body {
 	font-size: 0.9rem;
 	justify-self: flex-end;
 }
+.cartao__botao--destaque{
+	width: 100%;
+	grid-column: span 2;	
+}
 .cartao__botao--play::before {
 	content: "\e90b";
 	font-size: 24px;
@@ -164,9 +165,9 @@ body {
 	content: "\e901";
 	font-size: 24px;
 }
-.cartao__botao--destaque{
-	width: 100%;
-	grid-column: span 2;	
+.cartao__botao--localizacao::before{
+	content: "\e908";
+	font-size: 24px;
 }
 .cartao__botao--destaque::before{
 	margin-right: 8px;
@@ -175,3 +176,5 @@ body {
 	display: grid;
 	gap: 16px;
 }
+
+
