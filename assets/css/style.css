@@ -104,7 +104,7 @@ body {
 	background-color: #2C343A;
 }
 .cartao--destaque{
-	,margin-bottom: 16px;
+	margin-bottom: 16px;
 }
 .cartao__conteudo{
 	padding: 16px;
@@ -175,6 +175,24 @@ body {
 .secao{
 	display: grid;
 	gap: 16px;
+}
+.pico__destaque--info{
+	padding: 16px;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	gap: 8px;
+}
+.pico__destaque--imagen{
+	width: 22px;
+	margin-right: 8px;
+}
+.pico__destaque--autor{
+	grid-column: span 2;
+	display: flex;
+	align-items: center;
+}
+.pico__conteudo p{
+	margin-bottom: 1em;
 }
 
 

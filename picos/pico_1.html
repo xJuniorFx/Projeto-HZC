@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Picos</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+	<link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+	<link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+
+	<header class="cabecalho">
+		<button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+		<a href="../index.html"><img class="cabecalho__logo"src="../assets/img/logo.svg" alt="Logo HZC"></a>
+		<button class="cabecalho__notificacao" aria-label="notificaçâo"><i></i></button>
+	</header>
+
+	<nav class="menu-lateral">
+		<img class="menu-lateral__logo" src="../assets/img/logo.svg" alt="Logo HZC">
+		<a href="../index.html" class="menu-lateral__link menu-lateral__link--inicio">Inicio</a>
+		<a href="../videos.html" class="menu-lateral__link menu-lateral__link--videos">Videos</a>
+		<a href="../picos.html" class="menu-lateral__link menu-lateral__link--picos menu-lateral__link--ativo">Picos</a>
+		<a href="" class="menu-lateral__link menu-lateral__link--integrantes">Integrantes</a>
+		<a href="" class="menu-lateral__link menu-lateral__link--camisas">Camisas</a>
+		<a href="" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
+	</nav>
+
+	<main class="principal">
+
+		<h2 class="titulo-secao">Gap do Itau da Voluntários da Pátria</h2>
+		<section class="cartao">
+			<img class="cartao__imagem" src="../assets/img/artigo_1.png" alt="Gap da Voluntários da Pátria" >
+		</section>
+
+		<section class=pico>			
+			<article class="pico__destaque">
+				<div class="pico__destaque--info">
+					<p class="pico__destaque--autor">
+						<img class="pico__destaque--imagen" src="../assets/img/profile_2.png"> Bruno Lopez
+					</p>
+					<p class="cartao__info--visualizacao">33 visualizações</p>
+				</div>
+				<div class="pico__conteudo">
+					<p>O gap próximo ao Itau na Rua Voluntários da Pátria, é um local muito conhecido a todos os skatistas da cidade.</p>
+					<p>Muitos skatistas se encontram nesse pico, geralmente aos sabados ao entardecer (16H), e nos dias de semana as (19H).</p>
+				</div>
+		</section>
+
+		<section class="secao">
+			<h3 class="titulo-secao">Outros Picos</h3>
+			<article class="cartao">
+				<img class="cartao__imagem" src="../assets/img/artigo_5.png" alt="Calçada da Voluntários" >
+				<div class="cartao__conteudo">
+					<p class="cartao__perfil">Luiza Sampaio</p>
+					<h3 class="cartao__titulo">Gap calçada da Voluntários</h3>
+					<p class="cartao__info cartao__info--visualizacao">53 visualizações</p>
+					<button class="cartao__botao cartao__botao--localizacao" type="button" onclick="location.href='pico_2.html'" aria-label="Localização Gap calçada" ></button>
+				</div>
+			</article>
+		</section>
+
+		<section class="secao">
+			<article class="cartao">
+				<img class="cartao__imagem" src="../assets/img/artigo_6.png" alt="Rampa túnel Rebouças" >
+				<div class="cartao__conteudo">
+					<p class="cartao__perfil">André Soares</p>
+					<h3 class="cartao__titulo">Rampa da entrada do túnel Rebouças</h3>
+					<p class="cartao__info cartao__info--visualizacao">86 visualizações</p>
+					<button class="cartao__botao cartao__botao--localizacao" type="button" onclick="location.href='pico_3.html'" aria-label="Localização Rampa do túnel" ></button>
+				</div>
+			</article>
+		</section>
+
+		<section class="secao">
+			<article class="cartao">
+				<img class="cartao__imagem" src="../assets/img/artigo_7.png" alt="Wallride Portuguesa da FGP" >
+				<div class="cartao__conteudo">
+					<p class="cartao__perfil">Júlia Fonseca</p>
+					<h3 class="cartao__titulo">Wallride de pedra Portuguesa da FGP</h3>
+					<p class="cartao__info cartao__info--visualizacao">66 visualizações</p>
+					<button class="cartao__botao cartao__botao--localizacao" type="button" onclick="location.href='pico_4.html'" aria-label="Localização Wallride de Pedra" ></button>
+				</div>
+			</article>
+		</section>
+	</main>
+
+	<script src="../index.js"></script>
+</body>
+</html>
